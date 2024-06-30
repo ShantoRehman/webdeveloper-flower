@@ -13,10 +13,9 @@ body {
 }
 
 .header {
-   background: powderblue;
+    background: rgb(208, 161, 169);
     margin: 0px 40px;
 }
-
 
 .banner {
     padding: 50px 30px 0px 150px;
@@ -95,8 +94,6 @@ main {
     gap: 10px;
 }
 
-
-
 .bottom {
     display: flex;
     background-color: #dbe8ea;
@@ -104,7 +101,7 @@ main {
     padding: 25px 0px;
     gap: 250px;
     width: 70%;
-margin: 180px 0px 0px 240px;
+    margin: 180px 0px 0px 240px;
 }
 
 .banner-item {
@@ -126,12 +123,10 @@ margin: 180px 0px 0px 240px;
     justify-content: center;
 }
 
-
 .button {
     padding: 10px 25px;
     font-size: 18px;
 }
-
 
 .about .picture-pic {
     gap: 30px;
