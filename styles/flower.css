@@ -47,15 +47,14 @@ body {
 }
 
 .greeting {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 70px;
-    color: #474747;
-    margin-top: 5px;
+    color: black
 }
 
 /* main section */
 main {
-    max-width: 1000px;
+    max-width: 1430px;
     margin: 0px auto;
 }
 
@@ -66,7 +65,7 @@ main {
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .section-description {
@@ -90,19 +89,20 @@ main {
     box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.6);
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
-
-
 }
+.skills .blog{
+    gap: 10px;
+}
+
+
 
 .bottom {
     display: flex;
-    justify-content: baseline;
-    background-color: beige;
-    margin-top: 90px;
-    align-content: center;
-}
-.banner-item{
-  justify-content: space-around;
+    background-color: #dbe8ea;
+    margin-top: 180px;
+    padding: 25px 0px;
+    gap: 450px;
+    justify-content: center;
 }
 
 .about-title {
@@ -115,8 +115,9 @@ main {
     display: flex;
     font-weight: 700px;
     margin: 150px 0px;
-    background-color: beige;
+    background-color: rgb(203, 231, 234);
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -125,8 +126,8 @@ main {
     font-size: 18px;
 }
 
-.about,
-.picture-pic {
+
+.about .picture-pic {
     gap: 30px;
 }
 
@@ -146,14 +147,27 @@ main {
 .pictures-element {
     display: flex;
     gap: 10px;
-    max-width: 1200px;
     margin: 0px auto;
+    font-weight: 500px;
 }
 
 .profile-pic {
-    width: 200px;
+    width: 250px;
     margin: 0px auto;
+    gap: 25px;
 }
+.element-title{
+    font-size: 60px;
+    color: black;
+}
+main
+.element-description{
+    font-size: 23px;
+}
+.profile{
+    margin-top: 90px;
+}
+/* footer section */
 .footer{
    text-align: center;
    margin-top: 60px;
@@ -165,4 +179,7 @@ padding: 70px 0px;
 .primary{
     color: palevioletred;
     font-size: 70px;
+}
+.footer-description{
+    font-size: 25px;
 }
