@@ -8,7 +8,7 @@ body {
         font-optical-sizing: auto;
         font-weight: <weight>;
         font-style: normal;
-        
+
     }
 }
 
@@ -52,9 +52,10 @@ body {
     color: #474747;
     margin-top: 5px;
 }
+
 /* main section */
-main{
-    max-width: 1140px;
+main {
+    max-width: 1000px;
     margin: 0px auto;
 }
 
@@ -84,29 +85,32 @@ main{
 }
 
 .skills {
-   justify-content: baseline;
+    justify-content: baseline;
     font-weight: 500px;
-    box-shadow: 0px 5px 30px 0px rgba(0 ,0 ,0 ,0.6);
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.6);
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 
-   
+
 }
-.banner{
+
+.bottom {
     display: flex;
     justify-content: baseline;
+    background-color: beige;
+    margin-top: 90px;
     align-content: center;
-   font-weight: 500px;
-   background-color: beige;
- margin-top: 90px;
- width: 900px;
 }
-.about-title{
+.banner-item{
+  justify-content: space-around;
+}
+
+.about-title {
     font-size: 24px;
 
 }
 
-.about{
+.about {
     text-align: center;
     display: flex;
     font-weight: 700px;
@@ -116,26 +120,49 @@ main{
 }
 
 
-.button{
+.button {
     padding: 10px 25px;
     font-size: 18px;
 }
-.about ,.picture-pic{
+
+.about,
+.picture-pic {
     gap: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 10px 10px;
     font-size: 18px;
 }
 
-.element-item{
+.element-item {
     text-align: center;
 }
-.element-description{
+
+.element-description {
     font-size: 20px;
 }
 
-.pictures-element{
+.pictures-element {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.profile-pic {
+    width: 200px;
+    margin: 0px auto;
+}
+.footer{
+   text-align: center;
+   margin-top: 60px;
+   color: white;
+   background: black;
+padding: 70px 0px;
+}
+
+.primary{
+    color: palevioletred;
+    font-size: 70px;
 }
