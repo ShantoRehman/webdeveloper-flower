@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background: papayawhip;
+   background: powderblue;
     margin: 0px 40px;
 }
 
@@ -90,7 +90,8 @@ main {
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 }
-.skills .blog{
+
+.skills .blog {
     gap: 10px;
 }
 
@@ -99,9 +100,14 @@ main {
 .bottom {
     display: flex;
     background-color: #dbe8ea;
-    margin-top: 180px;
+    /* margin-top: 180px; */
     padding: 25px 0px;
-    gap: 450px;
+    gap: 250px;
+    width: 70%;
+margin: 180px 0px 0px 240px;
+}
+
+.banner-item {
     justify-content: center;
 }
 
@@ -130,8 +136,9 @@ main {
 .about .picture-pic {
     gap: 30px;
 }
-.element{
-    margin-bottom: 70px;
+
+.element {
+    margin-bottom: 139px;
 }
 
 .element-item {
@@ -152,33 +159,38 @@ main {
 .profile-pic {
     width: 250px;
     margin: 0px auto;
-    gap: 25px;
+    gap: 15px;
 }
-.element-title{
+
+.element-title {
     font-size: 60px;
     color: black;
 }
-main
-.element-description{
+
+main .element-description {
     font-size: 23px;
 }
-.profile{
+
+.profile {
     margin-top: 90px;
 }
 
-.back-pic{
+.back-pic {
     text-align: center;
     background-image: url("../flower.png");
     padding: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 139px;
 }
-.back-title{
-font-size: 40px;
+
+.back-title {
+    font-size: 40px;
 }
-.back-description{
+
+.back-description {
     font-size: 19px;
 }
-.back-mail{
+
+.back-mail {
     padding: 16px 250px;
     font-size: 16px;
     text-align: left;
@@ -186,18 +198,19 @@ font-size: 40px;
 
 
 /* footer section */
-.footer{
-   text-align: center;
-   margin-top: 60px;
-   color: white;
-   background: black;
-padding: 70px 0px;
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    background: black;
+    padding: 70px 0px;
 }
 
-.primary{
+.primary {
     color: palevioletred;
     font-size: 70px;
 }
-.footer-description{
+
+.footer-description {
     font-size: 25px;
 }
